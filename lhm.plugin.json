@@ -1,0 +1,7 @@
+{
+  "identifier": "kmzoll-appcontext-mcp",
+  "name": "AppContext",
+  "description": "AppContext is a macOS desktop app that gives AI coding agents like Claude Code and Cursor live visual context — iOS Simulator and browser screenshots, console and Metro logs — over MCP, and works as a personal MCP hub with per-tool authorization policies.",
+  "version": "0.1.0",
+  "tags": ["visual-context", "ios-simulator", "screenshots", "mcp-hub", "claude-code", "cursor", "macos"]
+}
