@@ -1,0 +1,35 @@
+{
+  "name": "appcontext-mcp",
+  "version": "0.1.0",
+  "description": "Connect AI coding agents to AppContext \u2014 live iOS Simulator and browser screenshots, Metro and console logs, and a personal MCP hub with per-tool policies. Bridges stdio MCP clients to the AppContext desktop app (macOS).",
+  "bin": {
+    "appcontext-mcp": "bin.mjs"
+  },
+  "files": [
+    "bin.mjs",
+    "README.md"
+  ],
+  "mcpName": "dev.appcontext/appcontext",
+  "homepage": "https://appcontext.dev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "cursor",
+    "ios-simulator",
+    "screenshots",
+    "visual-context",
+    "mcp-hub"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmzoll/appcontext-mcp.git"
+  }
+}
